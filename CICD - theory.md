@@ -40,6 +40,10 @@ Stage 4: Static Application Security Testing ( we are using application to scan 
     + Insecure coding practices
     **Tools Used: Sonarqube** (SAST scanner) (It helps to run scanning against various coding languages.
 
+Stage 5: Quality Gates
+Combining code coverage, SCA, Sonarqube scan we are performing a quality standards (in percentage levels) to get a Quality code against code coverage, code vulnerabilities, code scan.
+  + check if application meets the quality standards.
+    **Tools Used: Sonarqube Quality Profile**
 
 
 
