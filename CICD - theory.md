@@ -45,8 +45,15 @@ Combining code coverage, SCA, Sonarqube scan we are performing a quality standar
   + check if application meets the quality standards.
     **Tools Used: Sonarqube Quality Profile**
 
+if the code doesn't meet the quality gate standards, then we should inform the developer to fix the code --> intention of the cicd integration.
+sonarqube dashboard collects all the three results code coverage,SCA & SAST
 
+Stage 6: Build Image:
+ + Generate a deployable artifact
+   **Tools Used: Dockerfile**
 
+Stage 7: Scan Docker Image:
++ Identify Vulnerabilities in image layers such as OS Layer,Dependency Layer, Application Layer
 
 
 
